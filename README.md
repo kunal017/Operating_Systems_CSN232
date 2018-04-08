@@ -5,7 +5,7 @@ In order to run the OS, one simply needs to run the Makefile, present inside the
 
 ## Requirements
 
-nasm
-qemu
-gcc
-gnutools
+* nasm
+* qemu
+* gcc
+* gnutools
