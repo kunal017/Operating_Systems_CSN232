@@ -24,10 +24,9 @@ void printColor(int r, int c, int design)
 
 void clear()
 	{
-		int r,c;
-		for ( r = 0 ; r < 25 ; r++ )
+		for ( int r = 0 ; r < 25 ; r++ )
 		{
-			for ( c = 0 ; c < 80 ; c++ )
+			for ( int c = 0 ; c < 80 ; c++ )
 				{
 					printXY(r, c, ' ');
 				}
@@ -48,12 +47,12 @@ void printStr(int r, int c, char* s)
 
 void colorize()
 	{
-		int counter = 0,r,c;
-		for ( r = 0 ; r < 25 ; r++ )
+		int counter = 0;
+		for ( int r = 0 ; r < 25 ; r++ )
 			{
-				for ( c = 0 ; c < 80 ; c++ )
+				for ( int c = 0 ; c < 80 ; c++ )
 					{
-						printColor(r, c, (counter % 14)+1 );
+						printColor(r, c, (counter % 6)+1 );
 						counter++;
 					}
 			}
@@ -61,10 +60,9 @@ void colorize()
 
 void delay(int x)
 	{
-		int i,j;
-		for ( i = 0 ; i < x ; i++ )
+		for ( int i = 0 ; i < x ; i++ )
 			{
-				for ( j = 0 ; j < x ; j++ )
+				for ( int j = 0 ; j < x ; j++ )
 					{
 						
 					}

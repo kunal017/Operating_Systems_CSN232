@@ -7,15 +7,14 @@ void main()
 		clear();
 		colorize();
 		printStr(0, 0, "================================================================================");
-		printStr(4, 35, "GEEK - OS");
-		printStr(7, 19, "Our attempt to build a small OS on our own :)");
-		printStr(y_offset, name_offset, "Abhishek Jaisingh (14114002)");
-		printStr(y_offset+1, name_offset, "Abhishek Jaisingh (14114002)");
-		printStr(y_offset+2, name_offset, "Abhishek Jaisingh (14114002)");
-		printStr(y_offset+3, name_offset, "Abhishek Jaisingh (14114002)");
-		printStr(y_offset+4, name_offset, "Abhishek Jaisingh (14114002)");
-		printStr(y_offset+5, name_offset, "Abhishek Jaisingh (14114002)");
-		printStr(y_offset+6, name_offset+4, "Vaskar Ray Choudhary");
+		printStr(4, 27, "Operating System CSN_232");
+		printStr(7, 19, "Our attempt to build a small OS on our own");
+		printStr(11, 25, "Ayush Chauhan 14115027");
+		printStr(12, 25, "Joydeep Das 14116032");
+		printStr(13, 25, "Kunal Bansal 14116035");
+		printStr(14, 25, "Shobhit Mittal 14116061");
+		printStr(15, 25, "Shubham Agarwal 14116063");
+		
 		
 		printStr(24, 0, "================================================================================");
 		
